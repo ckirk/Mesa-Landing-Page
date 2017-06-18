@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+@import 'variables.scss';
+// @import 'slides.scss';
+// @import 'content.scss';
+
+// GLOBAL
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+// MISC
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#header {
+  display: none;
+}
+
+.section {
+  padding: 20px;
+  h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+  }
+  h2 {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 400;
+  }
+}
+
+.btnArea {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  a.button {
+    background-color: #7fd7ec;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+  }
+}
+
+#valueProp {
+  background-color: #5088E0;
+  #secondColor {
+    color: #ffdeb9;
+  }
+}
+
+#meetMesa {
+  background-color: #fff;
+  padding: 0;
+  #heading {
+    color: #686868;
+    padding: 20px;
+    h1 {
+      color: #686868;
+    }
+    h3 {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  #mesaImage {
+    max-width: 100%;
+    min-height: 200px;
+    // background: url('/images/mesa_1.png') no-repeat center center;
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // -o-background-size: cover;
+    // background-size: cover;
+    img {
+      max-width: 100%;
+    }
+  }
+  #controls {
+    #outerBtns {
+
+    }
+    #middleBtn {
+      background-color: #9BFC9F;
+      min-height: 400px;
+    }
+  }
+}
+
+#features {
+  background-color: #DE6A6A;
+  .fa {
+    margin-right: 20px;
+  }
+}
+
+#kickstarter {
+  background-color: #2BDE73;
+}
+
+#footer {
+  background-color: #5A5A5A;
+  color: #fff;
+  height: 50px;
+  #jist {
+    font-weight: 800;
+  }
+  #design {
+    font-weight: 200;
+  }
+  #left {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 10px;
+    margin-left: 20px;
+    font-weight: 200;
+  }
+  #right {
+    line-height: 50px;
+    float: right;
+    margin-right: 20px;
+  }
+}
